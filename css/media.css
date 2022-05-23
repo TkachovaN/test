@@ -1,0 +1,677 @@
+@media screen and (max-width: 1260px){
+   .header__top{
+      display: flex;
+      justify-content: space-around;
+   }
+}
+
+@media screen and (max-width: 1200px){
+   .slider__title{
+      margin-left: 30px;
+   }
+   .advantages, .catalog, .range, .counter, .reviews, .callback, .news,.work, .services, .orders__inner{
+      padding: 80px 0;
+   }
+   .footer{
+      padding-top: 80px;
+   }
+   .advantages__inner{
+      justify-content: space-around;
+   }
+   .advantages__card{
+      width: 40%;
+      margin: 10px;
+   }
+   .sale__inner {
+      flex-direction: column;
+      align-items: center;
+  }
+  .sale__left{
+     margin-right: 0;
+  }
+  .sale__info{
+     margin-right: 0;
+  }
+   .sale__img{
+      position: static;
+      height: 300px;
+   }
+   .sale__img-item{
+      height: 300px;
+   }
+   .sale__time{
+      margin-bottom: 30px;
+   }
+   .pop-up__advantages-inner{
+      width: 70vw;
+   }
+}
+
+@media screen and (max-width: 1190px){
+   .news__link-block{
+      margin: 10px;
+   }
+   .news__img-item{
+      width: 300px;
+      height: 150px;
+   }
+   .news__icon{
+      padding-left: 55px;
+   }
+   .news__icon::before{
+      left: 20px;
+   }
+   .news__title{
+      padding-left: 20px;
+      margin: 0;
+   }
+   .news__text{
+      padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1140px){
+   .news__link{
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+   .news__info{
+      margin-top: 10px;
+   }
+   .news__title{
+      font-size: 16px;
+   }
+   .news__text{
+     font-size: 14px;
+   }
+   .orders__top{
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .orders__top .form__block{
+      width: 50%;
+      text-align: center;
+      margin-top: 20px;
+   }
+   .orders__top .form__block input{
+      width: 300px;
+      font-size: 16px;
+      margin: 10px auto;
+   }
+   .orders__top .form__block select{
+      width: 300px;
+      font-size: 16px;
+      margin: 10px auto;
+   }
+   .orders__bottom .form__radio{
+      flex-direction: column;
+   }
+   .additional__title{
+      margin-bottom: 10px;
+   }
+   .area .form__block input{
+      width: 300px;
+      font-size: 16px;
+   }
+}
+
+@media screen and (max-width: 1100px){
+   .work__gallery-link {
+      width: 33%;
+   }
+   .buttons__work{
+      flex-wrap: wrap;
+   }
+   .button__work{
+      margin: 10px;
+   }
+   .work__info {
+      font-size: 18px;
+      margin-bottom: 10px;
+  }
+   .work__design{
+      font-size: 16px;
+      margin-bottom: 10px;
+   }
+   .sale__left{
+      width: 100%;
+   }
+   .sale__left-content{
+      justify-content: space-around;
+   }
+}
+
+@media screen and (max-width: 1050px){
+   .header__nav{
+      width: 100vw;
+      background-color: #2c2e3e;
+      transform: translateX(-110%);
+      height: 100vh;
+      margin-top: 0;
+      overflow: auto;
+      transition: all 0.5s ease-in-out;
+   }
+   .header__nav-wraper{
+      background-color: transparent;
+   }
+   .menu__item{
+      padding: 15px 50px;
+   }
+   .menu__list{
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+   }
+   .btn__media-menu{
+      display: block;
+   }
+   .slider__title{
+      max-width: 800px;
+      font-size: 40px;
+      line-height: 57px;
+   }
+}
+
+@media screen and (max-width: 1040px){
+   .catalog__inner{
+      justify-content: space-around;
+   }
+}
+
+@media screen and (max-width: 992px){
+   .slider__title{
+      max-width: 700px;
+      font-size: 32px;
+      line-height: 44px;
+      margin-left: 20px;
+   }
+   .slider__img-item{
+      max-width: 70vw;
+   }
+   .number{
+      font-size: 34px;
+      margin-bottom: 20px;
+   }
+   .numder__title{
+      font-size: 16px;
+      letter-spacing: 3px;
+   }
+   .footer__title{
+      font-size: 18px;
+   }
+   .footer__link{
+      font-size: 14px;
+   }
+}
+
+@media screen and (max-width: 920px){
+   .footer__inner{
+      flex-wrap: wrap;
+      justify-content: flex-start;
+   }
+   .footer__block{
+      margin-bottom: 15px;
+   }
+   .footer__title{
+      margin-bottom: 15px;
+   }
+   .footer__item {
+      margin-bottom: 7px;
+   }
+}
+
+@media screen and (max-width: 900px){
+   .range .slick-next, .reviews .slick-next{
+      right: 45%;
+   }
+   .range .slick-prev, .reviews .slick-prev{
+      left: 45%;
+   }
+   .work__gallery-link {
+      width: 50%;
+      padding-left: 0;
+   }
+   .work__title{
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      width: 60%;
+      padding-left: 10px;
+   }
+   .work__info{
+      color: #fff;
+   }
+   .work__img{
+      z-index: -1;
+   }
+   .work__gallery-link:hover .work__img-item{
+      transform: none;
+   }
+   .work__price {
+      color: #fff;
+   }
+   .sale__price{
+      font-size: 64px;
+   }
+   .sale__price span{
+      font-size: 30px;
+      top: 50px;
+   }
+   .sale__title{
+      margin-bottom: 10px;
+   }
+   .sale__text{
+      margin-bottom: 20px;
+      line-height: 1.4;
+   }
+   .sale__right{
+      width: 70%;
+   }
+}
+
+@media screen and (max-width: 780px){
+   .news__link{
+      justify-content: center;
+  }
+  .news__link-block{
+     margin: 0;
+  }
+   .pop-up__advantages-inner{
+      width: 90vw;
+      height: auto;
+      max-height: 90vh;
+   }
+}
+
+@media screen and (max-width: 768px){
+   .advantages, .catalog, .range, .counter, .reviews, .callback, .news,.work, .services, .orders__inner{
+      padding: 50px 0;
+   }
+   .footer{
+      padding-top: 50px;
+   }
+   .reviews__inner{
+      margin-top: 50px;
+   }
+   .catalog .title__main, .range .title__main, .reviews .title__main, .callback .title__main, .news .title__main, .work .title__main, .services .title__main, .orders .title__main{
+      font-size: 30px;
+   }
+   .slider__title{
+      max-width: 550px;
+      font-size: 28px;
+      line-height: 38px;
+   }
+   .advantages__card-icon{
+      width: 80px;
+      height: 80px;
+   }
+   .advantages__icon-item{
+      width: 40px;
+      height: 40px;
+   }
+   .advantages__card-title{
+      font-size: 20px;
+   }
+   .advantages__card-text{
+      line-height: 1.4;
+      margin-bottom: 20px;
+      font-size: 14px;
+   }
+   .country__inner{
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .number__block{
+      width: 50%;
+   }
+   .services__inner{
+      flex-wrap: wrap;
+   }
+   .services__accordion {
+      width: 100%;
+  }
+  .map__content{
+      height: 300px;
+   }
+   .sale__right{
+      width: 80%;
+   }
+}
+
+@media screen and (max-width: 740px){
+   .orders__bottom .form__radio {
+      flex-direction: row;
+      align-items: flex-start;
+  }
+  .form__radio-content{
+     flex-direction: column;
+  }
+  .orders__bottom .area .form__block{
+      display: flex;
+      flex-direction: column;
+   }
+   .area .form__block input{
+      margin-top: 10px;
+   }
+   .area__btn {
+      margin-top: 10px;
+   }
+   .calculate{
+      margin-top: 50px;
+   }
+}
+
+@media screen and (max-width: 700px){
+   .catalog__block{
+      margin: 10px 20px;
+   }
+   .sale__right{
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 650px){
+   .slider__title{
+      max-width: 480px;
+      font-size: 24px;
+      line-height: 32px;
+      margin-left: 10px;
+   }
+   .slider__img-item{
+      max-width: 80vw;
+   }
+   .orders__top .form__block{
+      width: 100%;
+   }
+   .orders__bottom .form__radio {
+      flex-direction: column;
+      align-items: center;
+   }
+   .form__radio-content{
+      margin-left: 0;
+   }
+   .orders__bottom .form__block{
+      margin: 5px 0;
+   }
+   .area .form__block{
+      display: flex;
+      flex-direction: column;
+   }
+   .area .form__block input{
+      margin-top: 10px;
+   }
+}
+
+@media screen and (max-width: 600px){
+   .header__top{
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+   }
+   .logo__img{
+      width: 150px;
+      height: 50px;
+   }
+   .call{
+      font-size: 16px;
+   }
+   .buy{
+      display: flex;
+      width: 100%;
+      margin-top: 10px;
+   }
+   .buy__link svg{
+      width: 25px;
+      height: 25px;
+   }
+   .range .slick-next, .reviews .slick-next{
+      right: 40%;
+   }
+   .range .slick-prev, .reviews .slick-prev{
+      left: 40%;
+   }
+   .callback__item {
+      width: 400px;
+   }
+   .callback-comment{
+      padding: 10px 20px 10px 20px;
+   }
+   .callback__btn{
+      width: 400px;
+      border-radius: 30px;
+      margin-top: 10px;
+      position: relative;
+   }
+   .sale__left-content{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   .sale__price span{
+      position: static;
+      margin-left: -10px;
+   }
+   .sale__info{
+      text-align: center;
+      margin-left: 0;
+      margin-top: 10px;
+   }
+   .sale__img{
+      height: 250px;
+   }
+   .sale__img-item{
+      height: 250px;
+   }
+   .sale__time{
+      padding: 20px 10px;
+   }  
+   .time__block{
+      margin: 0 20px;
+   }
+   .date__title{
+      font-size: 60px;
+      line-height: 70px;
+   }
+   .date__text{
+      font-size: 20px;
+   }
+   .pop-up__advantages-inner{
+      width: 100vw;
+      height: 100vh;
+      max-height: 100vh;
+      padding: 25px 40px;
+   }
+   .pop-up__advantages-title{
+      font-size: 24px;
+      margin-bottom: 25px;
+   }
+}
+
+@media screen and (max-width: 550px){
+   .map{
+      margin: 20px 0;
+   }
+}
+
+@media screen and (max-width: 530px){
+   .slider__title{
+      max-width: 400px;
+      font-size: 20px;
+      line-height: 30px;
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+  .advantages__card{
+      width: 100%;
+   }
+   .number__block{
+      width: 100%;
+   }
+   .work__gallery-link{
+      width: 100%;
+   }
+   .button__work{
+      font-size: 16px;
+   }
+   .work__title{
+      width: 100%;
+   }
+   .pop-up__advantages-text{
+      font-size: 14px;
+   }
+   .pop-up__advantages-title_list{
+      font-size: 16px;
+   }
+   .pop-up__advantages-title{
+      font-size: 22px;
+   }
+
+}
+
+@media screen and (max-width: 480px){
+   .advantages, .catalog, .counter, .reviews, .callback, .news,.work, .services, .orders__inner{
+      padding: 30px 0;
+   }
+   .footer{
+      padding-top: 30px;
+   }
+   .catalog .title__main, .range .title__main, .reviews .title__main, .callback .title__main, .news .title__main, .work .title__main, .services .title__main, .orders .title__main{
+      font-size: 24px;
+   }
+   .catalog .title__main{
+      margin-bottom: 30px;
+   }
+   .reviews__inner{
+      margin-top: 30px;
+   }
+   .callback .title__text{
+      font-size: 12px;
+      line-height: 1.4;
+      margin-bottom: 20px;
+   }
+   .callback__item {
+      width: 350px;
+   }
+   .callback__btn{
+      width: 350px;
+   }
+   .work__inner{
+      margin-top: 50px;
+   }
+   .accordion__title{
+      font-size: 18px;
+   }
+   .services__text{
+      font-size: 14px;
+   }
+   .text__main-accordion{
+      margin: 20px 0;
+   }
+   .sale__price{
+      font-size: 54px;
+   }
+   .sale__price span{
+      font-size: 24px;
+   }
+   .sale__title{
+      font-size: 26px;
+   }
+   .sale__text{
+      font-size: 14px;
+   }
+   .sale__img{
+      height: 200px;
+   }
+   .sale__img-item{
+      height: 200px;
+   }
+}
+ 
+@media screen and (max-width: 410px){
+   .logo__img{
+      width: 100px;
+      height: 40px;
+  }
+   .call {
+      font-size: 14px;
+   }
+   .buy__link svg{
+      width: 20px;
+      height: 20px;
+   }
+   .slider__title{
+      max-width: 305px;
+      margin-left: 0;
+      margin-right: 0;
+   }
+   .slider__img-item{
+      max-width: 90vw;
+   }
+   .callback__item {
+      width: 300px;
+   }
+   .callback__btn{
+      width: 300px;
+   } 
+   .time__block{
+      margin: 0 15px;
+   }
+   .date__title{
+      font-size: 40px;
+      line-height: 40px;
+   }
+   .date__text{
+      font-size: 15px;
+   }
+   .pop-up__advantages-inner{
+      padding: 20px 25px;
+   }
+}
+
+@media screen and (max-width: 367px){
+   .catalog__block{
+      width: 260px;
+      height: 260px;
+      margin: 10px;
+   }
+   .catalog__img{
+      width: 260px;
+      height: 260px;
+   }
+   .catalog__title{
+      font-size: 24px;
+      padding: 20px 10px;
+   }
+   .sale__link{
+      display: block;
+      margin: 0 auto 10px;
+   }
+   .sale__time{
+      margin: 15px 0;
+   }
+   .sale__price{
+      font-size: 46px;
+   }
+   .sale__price span{
+      font-size: 20px;
+   }
+   .sale__title{
+      font-size: 24px;
+   }
+   .news__link-block{
+      width: 300px;
+  }
+  .news__img-item{
+      width: 260px;
+      height: 140px;
+   }
+   .news__info{
+      width: 260px;
+   }
+   .designer__link{
+      padding: 16px 15px;
+   }
+   .result__calculate{
+      font-size: 18px;
+      padding: 15px 10px;
+   }
+}

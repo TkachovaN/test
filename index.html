@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name=" description" content="Websait-project" />
+   <title>Websait-project</title>
+   <link rel="shortcut icon" href="images/logo.png" type="image/png">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+   <header class="header__main">
+      <div class="header__top-wraper">
+         <div class="container">
+            <div class="header__top">
+               <div class="logo">
+                  <a class="link__logo" href="#home">
+                     <img class="logo__img" src="images/logo.png" alt="Логотип компании 'Creative'">
+                  </a>
+               </div>
+               <div class="buy">
+                  <a class="call" href="tel:+0735889333">073-588-93-33</a> 
+                  <div class="btn__media-menu">
+                     <div class="menu__icon-item"></div>
+                     <div class="menu__icon-item"></div>
+                     <div class="menu__icon-item"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="header__nav-wraper">
+         <div class="header__nav">
+            <nav class="menu">
+               <ul class="menu__list">
+                  <li class="menu__item">
+                     <a class="menu__link" href="#about">О нас</a>
+                  </li>
+                  <li class="menu__item">
+                     <a class="menu__link" href="#catalog">Каталог</a>
+                  </li> 
+                  <li class="menu__item">
+                     <a class="menu__link" href="#reviews">Отзывы</a>
+                  </li>
+                  <li class="menu__item">
+                     <a class="menu__link" href="#callback">Связаться</a>
+                  </li>
+                  <li class="menu__item">
+                     <a class="menu__link" href="#news">Новости</a>
+                  </li> 
+                  <li class="menu__item">
+                     <a class="menu__link" href="#contact">Контакты</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+   </header>
+
+   <main class="main">
+
+      <section class="page__intro" id="home">
+         <div class="slider__bg">
+            <div class="slider__block" style="background-color: #fb929e">
+               <div class="container">
+                  <h1 class="slider__title">
+                     Подчеркните индивидуальность и вкус Вашего интерьера
+                  </h1>
+               </div>
+               <div class="slider__img">
+                  <img class="slider__img-item" src="images/main__bg-interior_loft.jpg" alt="Интерьер с стиле Лофт">
+               </div>
+            </div>
+            <div class="slider__block" style="background-color: #4ed89f">
+               <div class="container">
+                  <h1 class="slider__title">
+                     Украшайте свою обитель и эксперементируйте в интерьере
+                  </h1>
+               </div>
+               <div class="slider__img">
+                  <img class="slider__img-item" src="images/main__bg-creative_sofa.jpg"
+                     alt="Креативные диваны бренда 'Lorem'">
+               </div>
+            </div>
+            <div class="slider__block" style="background-color: #76c9f1">
+               <div class="container">
+                  <h1 class="slider__title">
+                     Создавайте уютный комфорт благодаря красивым вещам
+                  </h1>
+               </div>
+               <div class="slider__img">
+                  <img class="slider__img-item" src="images/main__bg-blue_sofa.jpg"
+                     alt="Предметы интерьера: Мягкая мебель в синей рассцветки бренда 'Lorem'">
+               </div>
+            </div>
+            <div class="slider__block" style="background-color: #d19d92">
+               <div class="container">
+                  <h1 class="slider__title">
+                     У нас Вы сможете приобрести предметы декора на любой вкус
+                  </h1>
+               </div>
+               <div class="slider__img">
+                  <img class="slider__img-item" src="images/main__bg-exclusive_items.jpg"
+                     alt="Ассортимент эксклюзивных предметов интерьера современных дизайнеров">
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="advantages" id="about">
+         <div class="container">
+            <div class="advantages__inner">
+               <div class="advantages__card">
+                  <div class="advantages__card-icon">
+                     <img class="advantages__icon-item" src="images/service__contract.svg"
+                        alt="Изображение услуги 'Гарантия'">
+                  </div>
+                  <div class="advantages__info">
+                     <h4 class="advantages__card-title">ГАРАНТИЯ</h4>
+                     <p class="advantages__card-text">
+                        Заменим любой товар в течение 14 дней
+                     </p>
+                  </div>
+               </div>
+               <div class="advantages__card">
+                  <div class="advantages__card-icon">
+                     <img class="advantages__icon-item" src="images/service__box.svg"
+                        alt="Изображение услуги 'Сохранность посылки'">
+                  </div>
+                  <div class="advantages__info">
+                     <h4 class="advantages__card-title">СОХРАННОСТЬ ПОСЫЛКИ</h4>
+                     <p class="advantages__card-text">
+                        Гарантируем сохранность посылки
+                     </p>
+                  </div>
+               </div>
+               <div class="advantages__card">
+                  <div class="advantages__card-icon">
+                     <img class="advantages__icon-item" src="images/service__delivery.svg"
+                        alt="Изображение услуги 'Доставка'">
+                  </div>
+                  <div class="advantages__info">
+                     <h4 class="advantages__card-title">ДОСТАВКА</h4>
+                     <p class="advantages__card-text">
+                        Отправляем посылку в день заказа
+                     </p>
+                  </div>
+               </div>
+               <div class="advantages__card">
+                  <div class="advantages__card-icon">
+                     <img class="advantages__icon-item" src="images/service__contract.svg"
+                        alt="Изображение услуги 'Опыт работы'">
+                  </div>
+                  <div class="advantages__info">
+                     <h4 class="advantages__card-title">Опыт работы</h4>
+                     <p class="advantages__card-text">
+                        Мы работаем в сфере дизайна интерьера уже более 9 лет
+                     </p>
+                  </div>
+               </div>
+               <div class="advantages__card">
+                  <div class="advantages__card-icon">
+                     <img class="advantages__icon-item" src="images/service__box.svg"
+                        alt="Изображение услуги 'Креативные идеи'">
+                  </div>
+                  <div class="advantages__info">
+                     <h4 class="advantages__card-title">Креативные идеи</h4>
+                     <p class="advantages__card-text">
+                        Свежие как морской бриз, уникальные как вселенная
+                     </p>
+                  </div>
+               </div>
+               <div class="advantages__card">
+                  <div class="advantages__card-icon">
+                     <img class="advantages__icon-item" src="images/service__delivery.svg"
+                        alt="Изображение услуги 'Доступные цены'">
+                  </div>
+                  <div class="advantages__info">
+                     <h4 class="advantages__card-title">Доступные цены</h4>
+                     <p class="advantages__card-text">
+                        Мы постоянно следим за досупностью и актуальностью цен
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="catalog" id="catalog">
+         <div class="container">
+            <div class="title">
+               <h2 class="title__main">
+                  Каталог
+               </h2>
+            </div>
+            <div class="catalog__inner">
+               <div class="catalog__block">
+                  <a class="catalog__link" href="#">
+                     <img class="catalog__img" src="images/catalog-metal.jpg" alt="Каталог товаров: Металл">
+                     <p class="catalog__title">Металл</p>
+                  </a>
+               </div>
+               <div class="catalog__block">
+                  <a class="catalog__link" href="#">
+                     <img class="catalog__img" src="images/catalog-wood.jpg" alt="Каталог товаров: Дерево">
+                     <p class="catalog__title">Дерево</p>
+                  </a>
+               </div>
+               <div class="catalog__block">
+                  <a class="catalog__link" href="#">
+                     <img class="catalog__img" src="images/catalog-ceramics.jpg" alt="Каталог товаров: Керамика">
+                     <p class="catalog__title">Керамика</p>
+                  </a>
+               </div>
+               <div class="catalog__block">
+                  <a class="catalog__link" href="#">
+                     <img class="catalog__img" src="images/catalog-glass.jpg" alt="Каталог товаров: Стекло">
+                     <p class="catalog__title">Стекло</p>
+                  </a>
+               </div>
+               <div class="catalog__block">
+                  <a class="catalog__link" href="#">
+                     <img class="catalog__img" src="images/catalog-textile.jpg" alt="Каталог товаров: Текстиль">
+                     <p class="catalog__title">Текстиль</p>
+                  </a>
+               </div>
+               <div class="catalog__block">
+                  <a class="catalog__link" href="#">
+                     <img class="catalog__img" src="images/catalog-light.jpg" alt="Каталог товаров: Свет">
+                     <p class="catalog__title">Свет</p>
+                  </a>
+               </div>
+               <div class="catalog__block">
+                  <a class="catalog__link" href="#">
+                     <img class="catalog__img" src="images/catalog-interior.jpg" alt="Каталог товаров: Интерьер">
+                     <p class="catalog__title">Интерьер</p>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="new range">
+         <div class="container">
+            <div class="title">
+               <h2 class="title__main">
+                  Новинки
+               </h2>
+            </div>
+            <div class="range__inner">
+               <div class="range__card">
+                  <img class="range__img" src="images/new__metal_lamp-loft.jpg"
+                     alt="Изображение металлического светильника в стиле Лофт бренда 'Lorem'">
+                  <h4 class="range__title">
+                     Эксклюзивный дизайн
+                  </h4>
+                  <p class="range__price">
+                     537 грн
+                  </p>
+                  <div class="range__btn">
+                     <button class="range__buy">Купить</button>
+                     <a class="range__details" href="#">Подробнее</a>
+                  </div>
+               </div>
+               <div class="range__card">
+                  <img class="range__img" src="images/new__glass_vase-blue.jpg"
+                     alt="Изображение вазы из синего стекла бренда 'Lorem'">
+                  <h4 class="range__title">
+                     Эксклюзивный дизайн
+                  </h4>
+                  <p class="range__price">
+                     488 грн
+                  </p>
+                  <div class="range__btn">
+                     <button class="range__buy">Купить</button>
+                     <a class="range__details" href="#">Подробнее</a>
+                  </div>
+               </div>
+               <div class="range__card">
+                  <img class="range__img" src="images/new__wooden_armchair-moderm.jpg"
+                     alt="Изображение креативного деревянного кресла-кочалки с зеленой обивкой бренда 'Lorem'">
+                  <h4 class="range__title">
+                     Эксклюзивный дизайн
+                  </h4>
+                  <p class="range__price">
+                     350 грн
+                  </p>
+                  <div class="range__btn">
+                     <button class="range__buy">Купить</button>
+                     <a class="range__details" href="#">Подробнее</a>
+                  </div>
+               </div>
+               <div class="range__card">
+                  <img class="range__img" src="images/new__ceramic_vase-white.jpg"
+                     alt="Изображение комплекта керамических ваз двух уровней в белой рассцветки бренда 'Lorem'">
+                  <h4 class="range__title">
+                     Эксклюзивный дизайн
+                  </h4>
+                  <p class="range__price">
+                     835 грн
+                  </p>
+                  <div class="range__btn">
+                     <button class="range__buy">Купить</button>
+                     <a class="range__details" href="#">Подробнее</a>
+                  </div>
+               </div>
+               <div class="range__card">
+                  <img class="range__img" src="images/new__metal_lamp-loft.jpg"
+                     alt="Изображение металлического светильника в стиле Лофт бренда 'Lorem'">
+                  <h4 class="range__title">
+                     Эксклюзивный дизайн
+                  </h4>
+                  <p class="range__price">
+                     537 грн
+                  </p>
+                  <div class="range__btn">
+                     <button class="range__buy">Купить</button>
+                     <a class="range__details" href="#">Подробнее</a>
+                  </div>
+               </div>
+               <div class="range__card">
+                  <img class="range__img" src="images/new__glass_vase-blue.jpg"
+                     alt="Изображение вазы из синего стекла бренда 'Lorem'">
+                  <h4 class="range__title">
+                     Эксклюзивный дизайн
+                  </h4>
+                  <p class="range__price">
+                     488 грн
+                  </p>
+                  <div class="range__btn">
+                     <button class="range__buy">Купить</button>
+                     <a class="range__details" href="#">Подробнее</a>
+                  </div>
+               </div>
+               <div class="range__card">
+                  <img class="range__img" src="images/new__wooden_armchair-moderm.jpg"
+                     alt="Изображение креативного деревянного кресла-кочалки с зеленой обивкой бренда 'Lorem'">
+                  <h4 class="range__title">
+                     Эксклюзивный дизайн
+                  </h4>
+                  <p class="range__price">
+                     350 грн
+                  </p>
+                  <div class="range__btn">
+                     <button class="range__buy">Купить</button>
+                     <a class="range__details" href="#">Подробнее</a>
+                  </div>
+               </div>
+               <div class="range__card">
+                  <img class="range__img" src="images/new__ceramic_vase-white.jpg"
+                     alt="Изображение комплекта керамических ваз двух уровней в белой рассцветки бренда 'Lorem'">
+                  <h4 class="range__title">
+                     Эксклюзивный дизайн
+                  </h4>
+                  <p class="range__price">
+                     835 грн
+                  </p>
+                  <div class="range__btn">
+                     <button class="range__buy">Купить</button>
+                     <a class="range__details" href="#">Подробнее</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="counter" style="background-image: url(images/counter-bg.jpg)">
+         <div class="container">
+            <div class="country__inner">
+               <div class="number__block">
+                  <div class="number">11</div>
+                  <h4 class="numder__title">Дизайнеров</h4>
+               </div>
+               <div class="number__block">
+                  <div class="number">185973</div>
+                  <h4 class="numder__title">Товаров</h4>
+               </div>
+               <div class="number__block">
+                  <div class="number">59</div>
+                  <h4 class="numder__title">Брендов</h4>
+               </div>
+               <div class="number__block">
+                  <div class="number">7975</div>
+                  <h4 class="numder__title">Услуг дизайнера</h4>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="reviews" id="reviews">
+         <div class="container">
+            <div class="title">
+               <h2 class="title__main">
+                  Отзывы о нас
+               </h2>
+            </div>
+            <div class="reviews__inner">
+               <div class="reviews__slider">
+                  <img class="guest__img" src="images/guest__streltsov-ivan.jpg" alt="guest">
+                  <p class="guest__name">
+                     Иван Стрельцов
+                  </p>
+                  <p class="reviews__text">
+                     Качественный и красивый декор для дома
+                  </p>
+               </div>
+               <div class="reviews__slider">
+                  <img class="guest__img" src="images/guest__bokova-maria.jpg" alt="guest">
+                  <p class="guest__name">
+                     Мария Бокова
+                  </p>
+                  <p class="reviews__text">
+                     Качественный и красивый декор для дома
+                  </p>
+               </div>
+               <div class="reviews__slider">
+                  <img class="guest__img" src="images/guest__odinova-ksenia.jpg" alt="guest">
+                  <p class="guest__name">
+                     Ксения Одинова
+                  </p>
+                  <p class="reviews__text">
+                     Качественный и красивый декор для дома
+                  </p>
+               </div>
+               <div class="reviews__slider">
+                  <img class="guest__img" src="images/guest__streltsov-ivan.jpg" alt="guest">
+                  <p class="guest__name">
+                     Иван Стрельцов
+                  </p>
+                  <p class="reviews__text">
+                     Качественный и красивый декор для дома
+                  </p>
+               </div>
+               <div class="reviews__slider">
+                  <img class="guest__img" src="images/guest__bokova-maria.jpg" alt="guest">
+                  <p class="guest__name">
+                     Мария Бокова
+                  </p>
+                  <p class="reviews__text">
+                     Качественный и красивый декор для дома
+                  </p>
+               </div>
+               <div class="reviews__slider">
+                  <img class="guest__img" src="images/guest__odinova-ksenia.jpg" alt="guest">
+                  <p class="guest__name">
+                     Ксения Одинова
+                  </p>
+                  <p class="reviews__text">
+                     Качественный и красивый декор для дома
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="callback" style="background-image: url(images/callback-bg.jpg)" id="callback">
+         <div class="container">
+            <div class="title">
+               <h2 class="title__main">
+                  Мы свяжемся с Вами
+               </h2>
+               <p class="title__text">
+                  Подпишитесь на нашу рассылку, чтобы получать последние обновления и предложения
+               </p>
+            </div>
+            <div class="callback__inner">
+               <form class="form__callback" action="#">
+                  <p class="newsletter">
+                     <input class="checkbox" type="checkbox" name="checkbox-newsletter" checked> Подписаться на рассылку
+                  </p>
+                  <input class="callback__item" type="text" name="surname-text" placeholder="Введите Вашу Фамилию">
+                  <input class="callback__item" type="text" name="name-text" placeholder="Введите Ваше Имя">
+                  <input class="callback__item" type="tel" name="tel-text" placeholder="Введите Ваш Телефон">
+                  <input class="callback__item" type="email" name="email-text" placeholder="Введите Ваш Email">
+                  <input class="callback__item callback-comment" type="text" name="comment-text"
+                     placeholder="Комментарий">
+                  <button class="callback__btn" type="submit">Оставить заявку</button>
+               </form>
+            </div>
+         </div>
+      </section>
+
+      <section class="news" id="news">
+         <div class="container">
+            <div class="title">
+               <h2 class="title__main">
+                  Интересные новости
+               </h2>
+            </div>
+            <div class="news__inner">
+               <div class="news__link">
+                  <a class="news__link-block" href="#">
+                     <div class="news__img">
+                        <img class="news__img-item" src="images/news__create-beautiful.jpg"
+                           alt="Изображение на тему: 'Создадим прекрасное вместе'">
+                     </div>
+                     <div class="news__info">
+                        <div class="news__icon">305</div>
+                        <div class="news__date">
+                           22.07.2020
+                        </div>
+                     </div>
+                     <h5 class="news__title">
+                        Создадим прекрасное вместе
+                     </h5>
+                     <p class="news__text">
+                        Почему бы не создать декор своими руками? Мы предлагаем побыть Вам в роли личного дизайнера,
+                        ведь
+                        Вы лучше знаете и чувствуете
+                     </p>
+                  </a>
+                  <a class="news__link-block" href="#">
+                     <div class="news__img">
+                        <img class="news__img-item" src="images/news__design-elements.jpg"
+                           alt="Изображение на тему: 'Основные элементы современного дизайна интерьера'">
+                     </div>
+                     <div class="news__info">
+                        <div class="news__icon">411</div>
+                        <div class="news__date">
+                           17.07.2020
+                        </div>
+                     </div>
+                     <h5 class="news__title">
+                        Основные элементы современного дизайна интерьера
+                     </h5>
+                     <p class="news__text">
+                        Почему бы не создать декор своими руками? Мы предлагаем побыть Вам в роли личного дизайнера,
+                        ведь
+                        Вы лучше знаете и чувствуете
+                     </p>
+                  </a>
+                  <a class="news__link-block" href="#">
+                     <div class="news__img">
+                        <img class="news__img-item" src="images/news__wow-effect.jpg"
+                           alt="Изображение на тему: 'Wow эффект'">
+                     </div>
+                     <div class="news__info">
+                        <div class="news__icon">289</div>
+                        <div class="news__date">
+                           09.07.2020
+                        </div>
+                     </div>
+                     <h5 class="news__title">
+                        Wow эффект
+                     </h5>
+                     <p class="news__text">
+                        Почему бы не создать декор своими руками? Мы предлагаем побыть Вам в роли личного дизайнера,
+                        ведь
+                        Вы лучше знаете и чувствуете
+                     </p>
+                  </a>
+                  <a class="news__link-block" href="#">
+                     <div class="news__img">
+                        <img class="news__img-item" src="images/news__create-beautiful.jpg"
+                           alt="Изображение на тему: 'Создадим прекрасное вместе'">
+                     </div>
+                     <div class="news__info">
+                        <div class="news__icon">305</div>
+                        <div class="news__date">
+                           22.07.2020
+                        </div>
+                     </div>
+                     <h5 class="news__title">
+                        Создадим прекрасное вместе
+                     </h5>
+                     <p class="news__text">
+                        Почему бы не создать декор своими руками? Мы предлагаем побыть Вам в роли личного дизайнера,
+                        ведь
+                        Вы лучше знаете и чувствуете
+                     </p>
+                  </a>
+                  <a class="news__link-block" href="#">
+                     <div class="news__img">
+                        <img class="news__img-item" src="images/news__design-elements.jpg"
+                           alt="Изображение на тему: 'Основные элементы современного дизайна интерьера'">
+                     </div>
+                     <div class="news__info">
+                        <div class="news__icon">411</div>
+                        <div class="news__date">
+                           17.07.2020
+                        </div>
+                     </div>
+                     <h5 class="news__title">
+                        Основные элементы современного дизайна интерьера
+                     </h5>
+                     <p class="news__text">
+                        Почему бы не создать декор своими руками? Мы предлагаем побыть Вам в роли личного дизайнера,
+                        ведь
+                        Вы лучше знаете и чувствуете
+                     </p>
+                  </a>
+                  <a class="news__link-block" href="#">
+                     <div class="news__img">
+                        <img class="news__img-item" src="images/news__wow-effect.jpg"
+                           alt="Изображение на тему: 'Wow эффект'">
+                     </div>
+                     <div class="news__info">
+                        <div class="news__icon">289</div>
+                        <div class="news__date">
+                           09.07.2020
+                        </div>
+                     </div>
+                     <h5 class="news__title">
+                        Wow эффект
+                     </h5>
+                     <p class="news__text">
+                        Почему бы не создать декор своими руками? Мы предлагаем побыть Вам в роли личного дизайнера,
+                        ведь
+                        Вы лучше знаете и чувствуете
+                     </p>
+                  </a>
+                  <a class="news__link-block" href="#">
+                     <div class="news__img">
+                        <img class="news__img-item" src="images/news__create-beautiful.jpg"
+                           alt="Изображение на тему: 'Создадим прекрасное вместе'">
+                     </div>
+                     <div class="news__info">
+                        <div class="news__icon">305</div>
+                        <div class="news__date">
+                           22.07.2020
+                        </div>
+                     </div>
+                     <h5 class="news__title">
+                        Создадим прекрасное вместе
+                     </h5>
+                     <p class="news__text">
+                        Почему бы не создать декор своими руками? Мы предлагаем побыть Вам в роли личного дизайнера,
+                        ведь
+                        Вы лучше знаете и чувствуете
+                     </p>
+                  </a>
+                  <a class="news__link-block" href="#">
+                     <div class="news__img">
+                        <img class="news__img-item" src="images/news__design-elements.jpg"
+                           alt="Изображение на тему: 'Основные элементы современного дизайна интерьера'">
+                     </div>
+                     <div class="news__info">
+                        <div class="news__icon">411</div>
+                        <div class="news__date">
+                           17.07.2020
+                        </div>
+                     </div>
+                     <h5 class="news__title">
+                        Основные элементы современного дизайна интерьера
+                     </h5>
+                     <p class="news__text">
+                        Почему бы не создать декор своими руками? Мы предлагаем побыть Вам в роли личного дизайнера,
+                        ведь
+                        Вы лучше знаете и чувствуете
+                     </p>
+                  </a>
+                  <a class="news__link-block" href="#">
+                     <div class="news__img">
+                        <img class="news__img-item" src="images/news__wow-effect.jpg"
+                           alt="Изображение на тему: 'Wow эффект'">
+                     </div>
+                     <div class="news__info">
+                        <div class="news__icon">289</div>
+                        <div class="news__date">
+                           09.07.2020
+                        </div>
+                     </div>
+                     <h5 class="news__title">
+                        Wow эффект
+                     </h5>
+                     <p class="news__text">
+                        Почему бы не создать декор своими руками? Мы предлагаем побыть Вам в роли личного дизайнера,
+                        ведь Вы лучше знаете и чувствуете
+                     </p>
+                  </a>
+               </div>
+               <button class="lazyLoad__news"></button>
+               <button class="lazyLoad__news-up"></button>
+               <a class="news__all" href="#">Все новости</a>
+            </div>
+         </div>
+      </section> 
+ 
+      <section class="orders">
+         <div class="container">
+            <div class="title">
+               <h2 class="title__main">
+                  Узнайте стоимость Вашего дизайна интерьера
+               </h2>
+            </div>
+         </div>
+         <div class="orders__inner" style="background-image: url(images/orders-bg.jpg)">
+            <div class="container">
+               <form class="orders__form" action="#">
+                  <div class="orders__top">
+                     <div class="form__block">
+                        <label for="building">
+                           Вид дизайна:
+                        </label>
+                        <select id="building" name="building-text">
+                           <option value="0" disabled selected>Варианты</option>
+                           <option value="600">Квартира</option>
+                           <option value="700">Дом</option>
+                           <option value="550">Офис</option>
+                           <option value="800">Магазин</option>
+                           <option value="755">Кафе/Ресторан</option>
+                           <option value="950">Салон красоты</option>
+                           <option value="1000">Другое</option>
+                        </select>
+                     </div>
+                     <div class="form__block">
+                        <label for="options">
+                           Выберите пакет услуг:
+                        </label>
+                        <select id="options" name="options-text">
+                           <option value="0" disabled selected>Варианты</option>
+                           <option value="1100">Базовый</option>
+                           <option value="1300">Стандарт</option>
+                           <option value="1500">Элит</option>
+                        </select>
+                     </div>
+                     <div class="form__block">
+                        <label for="style">
+                           Выберите стиль:
+                        </label>
+                        <select id="style" name="style-text">
+                           <option value="0" disabled selected>Варианты</option>
+                           <option value="700">Лофт</option>
+                           <option value="500">Минимализм</option>
+                           <option value="950">Скандинавский</option>
+                           <option value="700">Классический</option>
+                           <option value="1050">Хай-тек</option>
+                           <option value="850">Фьюжн</option>
+                           <option value="800">Прованс</option>
+                           <option value="1150">Восточный</option>
+                           <option value="1500">Другое</option>
+                        </select>
+                     </div>
+                  </div>
+                  <div class="orders__bottom">
+                     <div class="form__radio">
+                        <p class="additional__title">
+                           Дополнительные услуги:
+                        </p>
+                        <div class="form__radio-content">
+                           <div class="form__block">
+                              <input type="checkbox" id="planning-solution" name="checkbox-additional-services-text2"
+                                 value="500">
+                              <label for="planning-solution">
+                                 Планировочное решение
+                              </label>
+                           </div>
+                           <div class="form__block">
+                              <input type="checkbox" id="visualization" name="checkbox-additional-services-text3"
+                                 value="700">
+                              <label for="visualization">
+                                 3d визуализация интерьера
+                              </label>
+                           </div>
+                           <div class="form__block">
+                              <input type="checkbox" id="author's-supervision" name="checkbox-additional-services-text4"
+                                 value="900">
+                              <label for="author's-supervision">
+                                 Авторский надзор
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="area">
+                        <div class="form__block">
+                           <label for="area">
+                              Площадь в м <sup>2</sup>:
+                           </label>
+                           <input class="area__number" type="number" id="area" name="area-text" placeholder="Площадь"
+                              step="10" value='0' min="0" max="150">
+                           <div class="area__btn">
+                              <button class="control__button btn-minus">
+                                 -
+                              </button>
+                              <button class="control__button btn-plus">
+                                 +
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="calculate">
+                     <p class="calculate__title">
+                        Приблизизительная стоимость дизайна в грн*
+                     </p>
+                     <div class="calculate__inner">
+                        <div class="result__calculate">0</div>
+                        <a class="designer__link" href="#callback">
+                           Заказать дизайнера
+                        </a>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </section>
+
+   </main>
+
+   <!--footer-->
+   <footer class="footer" id="contact">
+      <div class="container">
+         <div class="footer__inner">
+            <div class="footer__block">
+               <a class="link__logo" href="#home">
+                  <img class="logo__img" src="images/logo.png" alt="Логотип компании 'Creative'">
+               </a>
+               <div class="footer__social">
+                  <a class="footer__social-link" href="https://twitter.com">
+                     <img class="social__icon" src="images/twitter.svg" alt="twitter">
+                  </a>
+                  <a class="footer__social-link" href="https://facebook.com">
+                     <img class="social__icon" src="images/facebook.svg" alt="facebook">
+                  </a>
+                  <a class="footer__social-link" href="https://www.linkedin.com">
+                     <img class="social__icon" src="images/linkedin.svg" alt="linkedin">
+                  </a>
+                  <a class="footer__social-link" href="https://dribbble.com">
+                     <img class="social__icon" src="images/dribbble.svg" alt="dribbble">
+                  </a>
+               </div>
+            </div>
+            <div class="footer__block">
+               <h4 class="footer__title">Контакты</h4>
+               <ul class="footer__list">
+                  <li class="footer__item footer-icon address">
+                     04555 г.Киев ул.Крещатик, 18
+                  </li>
+                  <li class="footer__item footer-icon phone">
+                     <a class="footer__link" href="tel:+0735889333">073-588-93-33</a>
+                  </li>
+                  <li class="footer__item footer-icon email">
+                     <a class="footer__link" href="mailto:creative_design.com">creative_design.com</a>
+                  </li>
+               </ul>
+            </div> 
+         </div>
+      </div> 
+   </footer>
+
+   <button class="btn__top"></button>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="js/slick.js"></script>
+   <script src="js/jquery.matchHeight-min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+
+</html>
